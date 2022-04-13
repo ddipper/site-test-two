@@ -1,0 +1,194 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+header {
+    background-color: rgb(49, 48, 48);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#header-text a {
+    color: rgb(193, 193, 193);
+}
+
+#header-text {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#start-content {
+    display: flex;
+    justify-content: center;
+
+    background: linear-gradient(white, rgb(248, 248, 248));
+    margin-top: 60px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 50px;
+}
+
+.body-other-text {
+    font-weight: lighter;
+    font-size: 17px;
+}
+
+#start-content-img {
+    background-color: rgb(196, 192, 177);
+    width: 1000px;
+    height: 300px;
+}
+
+#start-content-text h1 {
+    margin-bottom: 25px;
+}
+
+#start-content-text .body-other-text {
+    width: 85%;
+}
+
+#start-content-text button {
+    margin-top: 50px;
+    background-color: rgb(255, 45, 45);
+    color: white;
+    border-width: 0px;
+    border-radius: 5px;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#instrument-content {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#instrument-text {
+    width: 40%;
+}
+
+#instrument-text h2 {
+    margin-bottom: 25px;
+}
+
+#instrument-text button {
+    background-color: white;
+    border-radius: 5px;
+    border-color: rgb(255, 45, 45);
+    border-width: 2px;
+    padding: 10px;
+    color: rgb(255, 45, 45);
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+#instrument-info img {
+    width: 35px;
+}
+
+#instrument-info {
+    width: 55%;
+}
+
+.instrument-info-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.instrument-info-text {
+    margin-right: 0px;
+    width: 45%;
+    margin-top: 0px;
+    border-color: rgb(255, 45, 45);
+    border-width: 2px;
+    border-style: solid;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#instrument-info-group-2 {
+    margin-top: 25px;
+}
+
+#product-content{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+#hr-gray{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+#product-content h4{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#hr-red{
+    width: 25%;
+    margin-left: 37.5%;
+    color: rgb(255, 45, 45);
+    padding: 0.7px;
+    border-radius: 35px;
+    background-color: rgb(255, 45, 45);
+    margin-bottom: 30px;
+}
+
+#product-links{
+    display: flex;
+    justify-content: space-evenly;
+    width: 65%;
+    margin-left: 17.5%;
+}
+
+#product-links a{
+    color: rgb(76, 76, 76);
+    font-size: 30px;
+}
+
+#product-group{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-item{
+    background-color: rgb(196, 192, 177);
+    width: 20%;
+    height: 275px;
+}
+
+.product-item-group{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
